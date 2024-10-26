@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    .top {
+        margin: 10px 10px 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo span {
+            font-size: 25px;
+        }
+
+        .left {
+            width: 15%;
+            font-size: 15px;
+
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+
+                li {
+                    .dd-menu {
+                        width: 100px;
+                        background-color: lightgray;
+                        display: none;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+
+                            li {
+                                padding: 5px;
+                            }
+
+                            li a {
+                                text-decoration: none;
+                                color: black;
+                            }
+
+                            li a:hover {
+                                color: goldenrod;
+                                transition: 0.2s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            svg:hover {
+                path {
+                    fill: goldenrod;
+                    transition: 0.2s;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            width: 10%;
+            justify-content: space-around;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: goldenrod;
+                transition: 0.2s;
+            }
+        }
+    }
+
+    .bottom {
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: goldenrod;
+                transition: 0.2s;
+            }
+        }
+    }
+}
+
+
+.rustic-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .imgbox {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 90%;
+            border-radius: 5%;
+        }
+    }
+
+    .txtbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                margin: 5px;
+
+                button {
+                    width: 150px;
+                    height: 50px;
+                    border: none;
+                    color: white;
+                    background-color: goldenrod;
+                    transition: 0.2s;
+                }
+
+                button:hover {
+                    background-color: black;
+                    color: white;
+                    transition: 0.2s;
+                }
+            }
+        }
+    }
+}
+
+
+.cozy-sec {
+    display: flex;
+    flex-direction: column;
+    .txt:hover {
+        color: goldenrod;
+        transition: 0.2s;
+    }
+    .top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom-1 {
+        width: 100%;
+
+        .cards {
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 20%;
+
+                    .imgsc {
+                        .itemicons {
+                            display: none;
+                        }
+
+                        background-image: url("./product_images/natural-wood-dining-chair.jpeg");
+                        width: 200px;
+                        height: 200px;
+                        background-size: cover;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            padding: 5px;
+                            margin: 5px;
+                            display: flex;
+                            flex-direction: column;
+
+                            svg:hover {
+                                path {
+                                    color: gold;
+                                }
+                            }
+                        }
+
+                        .flcl {
+                            svg:hover {
+                                path {
+                                    fill: gold;
+                                }
+                            }
+                        }
+                    }
+
+                    .imgsc:hover {
+                        .itemicons {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-2 {
+        width: 100%;
+        height: 220px;
+        .cards {
+            display: flex;
+            justify-content: center;
+            ul {
+                display: flex;
+                list-style: none;
+                justify-content: space-around;
+                width: 78%;
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    width: 15%;
+                    a {
+                        img {
+                            width: 150px;
+                            height: 150px;
+                            border-radius: 100%;
+                            transition: 0.6s;
+                        }
+                        img:hover {
+                            width: 165px;
+                            height: 160px;
+                            transition: 0.6s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.sofa-sec {
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom-1 {
+        width: 100%;
+
+        .cards {
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 20%;
+
+                    .imgsc {
+                        .itemicons {
+                            display: none;
+                        }
+
+                        background-image: url("./product_images/sofa.jpeg");
+                        width: 200px;
+                        height: 200px;
+                        background-size: cover;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            padding: 5px;
+                            margin: 5px;
+                            display: flex;
+                            flex-direction: column;
+
+                            svg:hover {
+                                path {
+                                    color: gold;
+                                }
+                            }
+                        }
+
+                        .flcl {
+                            svg:hover {
+                                path {
+                                    fill: gold;
+                                }
+                            }
+                        }
+                    }
+
+                    .imgsc:hover {
+                        .itemicons {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (max-width:750px) {
+    nav {
+        .top {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    nav {
+        .bottom {
+            display: none;
+        }
+    }
+
+    nav .top .left ul li:hover .dd-menu {
+        display: block;
+        position: absolute;
+    }
+
+    .min-device-block {
+        display: none !important;
+    }
+
+    .cozy-sec .bottom-1 .cards ul {
+        justify-content: space-around;
+
+        li {
+            width: 40%;
+        }
+    }
+}
+
+@media (min-width:750px) {}
+
+@media (min-width:1024px) {
+    nav .top .left ul .dd-btn {
+        display: none;
+    }
+
+    .rustic-sec {
+        flex-direction: row;
+
+        .txtbox ul li {
+            margin: 20px;
+        }
+    }
+}
